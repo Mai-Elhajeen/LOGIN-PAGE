@@ -1,0 +1,48 @@
+/* start Loading Page */
+.loading .span1{
+    border-radius: 50% 50% 50% 0%;
+}
+.loading .span2{
+    border-radius: 50% 50% 0% 50%;
+}
+.loading .span3{
+    border-radius: 0% 50% 50% 50%;
+}
+.loading .span4{
+    border-radius: 50% 0% 50% 50%;
+}
+/* ****************************** End Loading Page ****************************** */
+/* Start Login Page */
+.container-login{
+    padding: 0 50px 0 150px;
+}
+/* LanguageSwitcher */
+.select-language {
+    justify-content: flex-end;
+}
+.LanguageSwitcher ul li a {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-info .div-inpt input{
+    text-align: right;
+}
+.login-info .div-inpt .icon {
+    padding-right: 22px;
+    padding-left: 0;
+}
+form .texts span {
+    transform: translate(-5px, 2px);
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .container-login .img-login {
+        transform: translate(50px, 0px);
+    }
+}
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .container-login .img-login {
+        transform: translate(50px, 0px);
+    }
+}
+/* ****************************** end Login Page ****************************** */

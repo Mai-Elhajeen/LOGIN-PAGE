@@ -1,0 +1,66 @@
+/* Extra Small Screen */
+@media(max-width: 575.98px){
+    /* Start login page */
+    .container-login {
+        display: block;
+        padding: 0 0px 0 20px;
+    }
+    .container-login .img-login{
+        display: none;
+    }
+    .login-info{
+        flex-basis: 100%;
+    }
+    /* Enf login page */
+}
+/* Small Screen */
+@media(min-width: 576px) and (max-width: 767.98px){
+    /* Start login page */
+    .container-login {
+        display: block;
+        padding: 0 0px 0 20px;
+    }
+    .container-login .img-login{
+        display: none;
+    }
+    .login-info{
+        flex-basis: 100%;
+    }
+    /* Enf login page */
+}
+/* Medium Screen */
+@media(min-width: 768px) and (max-width: 991.98px){
+    /* Start login page */
+    .container-login{
+        padding: 0 50px;
+    }
+    .login-info .div-inpt {
+        width: 85%;
+    }
+    .container-login .img-login {
+        transform: translate(-115px, 0px);
+    }
+    .login-info {
+        flex-basis: 80%;
+    }
+    form .btn {
+        width: 85%;
+    }
+    /* Enf login page */
+}
+/* Large Screen*/
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .container-login {
+        padding: 0 50px 0 50px;
+    }
+    .container-login .img-login {
+        transform: translate(-100px, 0px);
+    }
+    .login-info {
+        flex-basis: 80%;
+    }
+}
+/* Extra Lrge Screen*/
+@media(min-width: 1200px){
+
+}
